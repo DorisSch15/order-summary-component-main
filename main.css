@@ -13,6 +13,9 @@ body {
   background-image: url("./images/pattern-background-desktop.svg"); }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
   width: 450px;
   height: 697px;
@@ -32,11 +35,23 @@ body {
     background-image: url(./images/illustration-hero.svg); }
 
 .plan {
-  position: relative; }
-  .plan__picked::before {
-    position: absolute;
-    height: 48px;
-    width: 48px;
-    left: 0; }
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   .plan__picked {
-    background-color: #F7F9FF; }
+    padding: 25px;
+    height: 48px;
+    width: 306px;
+    border-radius: 0px;
+    border-radius: 11px;
+    background-color: #F7F9FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .plan__picked-textTitle {
+      margin: 0px; }
+  .plan__order {
+    display: block;
+    margin-top: 32px; }
+  .plan__cancel {
+    margin-top: 32px; }
