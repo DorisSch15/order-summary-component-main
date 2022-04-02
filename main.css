@@ -5,7 +5,8 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: #e0e8ff;
-  font-family: 'Red Hat Display', sans-serif; }
+  font-family: 'Red Hat Display', sans-serif;
+  color: black; }
 
 .wave {
   width: 100vw;
@@ -20,7 +21,6 @@ body {
   width: 450px;
   height: 697px;
   margin: auto;
-  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
@@ -38,6 +38,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  .plan__description {
+    height: 100%;
+    width: 306px;
+    text-align: center;
+    color: #717FA6; }
   .plan__picked {
     padding: 25px;
     height: 48px;
@@ -48,8 +53,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
-    .plan__picked-textTitle {
+    .plan__picked-text-title {
       margin: 0px; }
+    .plan__picked-text-price {
+      color: #717FA6; }
     .plan__picked-change:active, .plan__picked-change:hover {
       color: #766CF1;
       text-decoration: none; }
