@@ -50,8 +50,33 @@ body {
     justify-content: space-between; }
     .plan__picked-textTitle {
       margin: 0px; }
+    .plan__picked-change:active, .plan__picked-change:hover {
+      color: #766CF1;
+      text-decoration: none; }
   .plan__order {
-    display: block;
-    margin-top: 32px; }
+    margin-top: 32px;
+    height: 50px;
+    width: 354px;
+    border: #979797 solid 0;
+    border-radius: 11px;
+    box-shadow: 0px 20px 20px 0px #382AE131;
+    background-color: #382AE1;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center; }
+  .plan__order:hover, .plan__order:active {
+    background: #766CF1; }
   .plan__cancel {
-    margin-top: 32px; }
+    margin-top: 32px;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none;
+    color: #717FA6; }
+  .plan__cancel:active, .plan__cancel:hover {
+    color: #1F2E55; }
